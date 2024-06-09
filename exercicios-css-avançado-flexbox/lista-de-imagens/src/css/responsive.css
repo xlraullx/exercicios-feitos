@@ -1,0 +1,14 @@
+@media (max-width: 820px){
+    body{
+        height: auto;
+    }
+    
+    .container{
+        margin: 45px 0;
+    }
+    
+    .card{
+        flex-direction: column;
+        gap: 1px;
+    }
+}

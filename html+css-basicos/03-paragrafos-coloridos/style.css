@@ -1,0 +1,17 @@
+html {
+    background-color: #ccc;
+}
+/* esse html com background-color n tava no exercicio só fiz pra ficar melhor de ver o paragrafo-padrao */
+.texto {
+    margin: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.paragrafo-padrao {
+    background-color: #F5F5F5;
+}
+
+.paragrafo-destacado {
+    background-color: #F0CCE2;
+}

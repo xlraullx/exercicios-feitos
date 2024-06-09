@@ -1,0 +1,42 @@
+@media (max-width:650px){
+    header {
+        flex-direction: column;
+        margin: 40px 0;
+        justify-content: center;
+    }
+
+    .logo{
+        font-size: 40px;
+    }
+
+    .logo img{
+        margin-right: 10px;
+    }
+
+    .menu{
+        margin-top: 70px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .item{
+        text-align: center;
+        width: 233px;
+    }
+
+    .menu li{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .cadastre-se{
+        margin-top: 50px;
+        border-radius: 5%;
+        padding: 20px;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+}

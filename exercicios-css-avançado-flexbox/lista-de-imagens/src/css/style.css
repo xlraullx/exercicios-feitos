@@ -1,0 +1,55 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    font-family: "Public Sans", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card li{
+    display: flex;
+    align-items: end;
+    width: 335px;
+    height: 432px;
+}
+
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card li a{
+    display: flex;
+    flex-direction: column;
+    margin: 4.3rem 2rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.card li span{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.rome{
+    background-image: url(../imgs/rome.jpg);
+}
+
+.boat{
+    background-image: url(../imgs/boat.png);
+}
+
+.sand{
+    background-image: url(../imgs/sand-and-sea.png);
+}
+
+.starry{
+    background-image: url(../imgs/starry-night.png);
+}

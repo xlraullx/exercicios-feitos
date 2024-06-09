@@ -1,0 +1,15 @@
+@media (max-width: 700px){
+    body{
+        height: auto;
+    }
+
+    .paints{
+        gap: 0px;
+        margin: 45px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1400px){
+    
+}

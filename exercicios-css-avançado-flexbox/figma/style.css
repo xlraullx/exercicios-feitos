@@ -1,0 +1,76 @@
+body{
+    height: 100vh;
+    background: #000 no-repeat url(imgs/bg-desktop1.png) 100%;
+    background-size: cover;
+    font-family: 'Oxanium', sans-serif;
+    color: #FFFFFF;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 32px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo-selecao{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-align: center;
+    border-bottom: 2px solid #47F4FF;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.selecao{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-right:30px;
+    width: 585px;
+}
+
+.selecao-personagens img{
+    border-bottom: 4px solid #47F4FF;
+}
+
+.selecao-personagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;    
+    justify-content: space-between;
+}
+
+
+.informacoes-personagem{
+    width: 483px;
+}
+
+.personagem-selecionado{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-personagem{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-align: center;
+    border-bottom: solid 2px #47F4FF;
+    text-transform: uppercase;
+}
+
+.descricao-personagem{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}

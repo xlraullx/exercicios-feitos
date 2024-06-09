@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-do-texto);
+    font-family: 'Manrope';
+    font-weight: 800;
+    height: 100vh;
+}
+
+.card p{
+    font-size: 25px;
+}
+
+.card h1{
+    font-size: small;
+    color: var(--cor-do-botao-e-do-texto);
+    letter-spacing: 0.4em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 550px;
+    height: 330px;
+    border-radius: 4%;
+    background-color: var(--cor-do-card);
+}
+
+p:nth-child(n+2){
+    width: 444px;
+}
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    text-align: center; 
+}
+
+.bnt{
+    translate: 0 35px;
+    background-color: var(--cor-do-botao-e-do-texto);
+    border-radius: 50%;
+    border: 0;
+    width: 65px;
+    height: 65px;
+}
+
+.bnt:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 375px){
+    .card{
+        width: 350px;
+        height: 360px;
+    }
+
+    p:nth-child(n+2){
+        width: 100%;
+    }
+    
+}
