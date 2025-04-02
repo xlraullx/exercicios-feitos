@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-size: 62.5%;
+    background-color: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 228px;
+    width: 655px;
+    min-height: 347px;
+    border-radius: 21px;
+    background-color: #FCFCFC;
+}
+
+.faq img{
+    position: absolute;
+    left: -90px;
+}
+
+.faq h2{
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.faq .itens{
+    width: 100%;
+    padding-right: 50px;
+}
+
+.faq .item{
+    cursor: pointer;
+    background-image: url(../imgs/seta-fechada.png);
+    background-repeat: no-repeat;
+    background-position: top 5px right;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.faq .item:last-child{
+    border-bottom: none;
+}
+
+.faq .pergunta{
+    width: 95%;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.faq .resposta{
+    display: none;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.faq .item.ativo .pergunta{
+    font-weight: 700;
+}
+
+.faq .item.ativo{
+    background-image: url(../imgs/seta-aberta.png);
+}
+
+.faq .item.ativo .resposta{
+    display: block;
+    transition: 0.5s ease-in-out;
+    margin: 15px 0;
+}

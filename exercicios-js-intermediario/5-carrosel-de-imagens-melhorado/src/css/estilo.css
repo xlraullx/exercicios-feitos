@@ -1,0 +1,101 @@
+.paineis-de-imagens{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-out;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.slide-sakura{
+    background-image: url(../imgs/sakura.png);
+}
+
+.slide-flores{
+    background-image: url(../imgs/flores.png);
+}
+
+.slide-floresta{
+    background-image: url(../imgs/floresta-clima-quente.png);
+}
+
+.slide-cordilheiras{
+    background-image: url(../imgs/cordilheiras.png);
+}
+
+.mostrar{
+    opacity: 1;
+}
+
+.seta{
+    position: absolute;
+    z-index: 1;
+}
+
+.seta.esquerda{
+    left: 4%;
+    transform: rotateY(180deg);
+}
+
+.seta.direita{
+    right: 4%;
+}
+
+.transparente{
+    opacity: 0.60;
+    cursor: default;
+}
+
+.conteudo{
+    background-color: #FFFFFF;
+    width: 620px;
+    height: 700px;
+    border-radius: 10px;
+    margin-left: 180px;
+    padding: 60px;
+}
+
+.conteudo .titulo{
+    font-weight: 400;
+    font-size: 5.0rem;
+    margin-bottom: 80px;
+}
+
+.conteudo p{
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.conteudo .bnt{
+    font-weight: 700;
+    font-size: 3.0rem;
+}
+
+.bnt.vermelho{
+    color: #C50000;
+}
+
+.bnt.amarelo{
+    color: #D9DD10;
+}
+
+.bnt.laranja{
+    color: #A63A17;
+}
+
+.bnt.azul{
+    color: #10ACDD;
+}

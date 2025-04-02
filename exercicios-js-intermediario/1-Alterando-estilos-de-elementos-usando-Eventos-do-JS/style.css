@@ -1,0 +1,16 @@
+.bloco{
+    width: 200px;
+    height: 200px;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+.vermelho{
+    background-color: red;
+}
