@@ -1,4 +1,9 @@
-const Card = ({ titulo = "Sem título", descricao = "Sem descrição" } : { titulo?: string; descricao?: string }) => {
+interface CardProps {
+    titulo?: string;
+    descricao?: string;
+}
+
+const Card = ({ titulo = "Sem título", descricao = "Sem descrição" } : CardProps) => {
     return (
         <div>
             <h2>{titulo}</h2>
